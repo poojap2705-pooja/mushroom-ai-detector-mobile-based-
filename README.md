@@ -10,17 +10,12 @@ This project is an image classification model for detecting mushrooms using Tens
 - `mushroom_model.h5`: Trained Keras model (generated after training).
 - `mushroom_model.tflite`: TensorFlow Lite model for mobile deployment (generated after training).
 - `class_indices.pkl`: Pickle file with class indices (generated after training).
-- `data/`: Folder containing subfolders for each mushroom type with images.
+- `data/sample_images_260`: Folder containing subfolders for each mushroom type with images.
 - `mushroom_dataset (A-X).xlsx`: Excel file with mushroom details.
 
 ## Setup
 
-1. Install the required packages:
-   ```
-   pip install -r requirements.txt
-   ```
-
-2. Prepare your data:
+1. Prepare your data:
    - Place mushroom images in folders named after the mushroom (e.g., `data/Amanita/image1.jpg`).
    - Create an Excel file `mushroom_details.xlsx` with columns like 'name', 'description', etc.
 
