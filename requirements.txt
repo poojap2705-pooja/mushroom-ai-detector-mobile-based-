@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 tensorflow==2.20.0
 keras==3.0.0
 pandas==2.0.3
 pillow==10.1.0
 openpyxl==3.1.2
+=======
+>>>>>>> c3099384f4fcb047a90cd41a465d5d3719db3d96

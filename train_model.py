@@ -1,12 +1,12 @@
 import tensorflow as tf
-from keras.preprocessing.image import ImageDataGenerator
-from keras.models import Sequential
-from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
 import os
 import pickle
 
 # Define paths
-data_dir = 'data/'  # Folder containing subfolders for each mushroom
+data_dir = 'data/sample_images_260'  # Folder containing subfolders for each mushroom
 excel_file = 'mushroom_dataset (A-X).xlsx'  # Excel file with mushroom details
 
 # Image parameters
